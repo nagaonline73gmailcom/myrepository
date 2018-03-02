@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71525" started-at="2018-03-01T16:41:21Z" finished-at="2018-03-01T16:42:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71525" started-at="2018-03-01T16:41:21Z" finished-at="2018-03-01T16:42:33Z">
+      <class name="com.k2js.hybridframework.hybridframework.testcases.BatTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.k2js.hybridframework.hybridframework.testcases.BatTest@4232c52b]" name="init" is-config="true" duration-ms="1086" started-at="2018-03-01T22:11:21Z" finished-at="2018-03-01T22:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.k2js.hybridframework.hybridframework.testcases.BatTest@4232c52b]" name="doLogin" duration-ms="68718" started-at="2018-03-01T22:11:22Z" data-provider="getData" finished-at="2018-03-01T22:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{url=https://flipkart.com, browser=firefox, password=Subbaraju@64, keys=enter, runmode=Y, text=bat, username=nagaonline73@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.k2js.hybridframework.hybridframework.testcases.BatTest@4232c52b]" name="quit" is-config="true" duration-ms="1651" started-at="2018-03-01T22:12:31Z" finished-at="2018-03-01T22:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.k2js.hybridframework.hybridframework.testcases.BatTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
